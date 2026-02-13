@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Hay cosas importantes en la vida, y amorcito tu eres de esas cosas, la mas importante iría yo , como te lo dije una vez y le lo diría mil veces, yo te quiero siempre a mi ladito como yoko, te necesito mas e lo que piensas, y mas e lo que te imaginas y se que también a veces soy medio tontito y me equivoco(mil veces), pero solo quiero que sepas que cada dia me esfuerzo mas por tenerte a mi lado y por siempre tenerte siempre a mi ladito como yoko, yo quiero ser esa persona que siempre este a tu lado y te vea brillar por siempre, amor solo te pido que nunca te vayas, no te vayas nunca,por que tu me quisiste cuando ni yo mismo me quería, y aunque se que somos novios todavía te quiero preguntar si…`;  } else {
+    text = "Hay cosas importantes en la vida, y amorcito tu eres de esas cosas, la mas importante diría yo , como te lo dije una vez y le lo diría mil veces, yo te quiero siempre a mi ladito como yoko, te necesito mas de lo que piensas, y mas de lo que te imaginas y se que también a veces soy medio tontito y me equivoco(mil veces), pero solo quiero que sepas que cada dia me esfuerzo mas por tenerte a mi lado y por siempre tenerte siempre a mi ladito como yoko, yo quiero ser esa persona que siempre este a tu lado y te vea brillar por siempre, amor solo te pido que nunca te vayas, no te vayas nunca,por que tu me quisiste cuando ni yo mismo me quería, y aunque se que somos novios todavía te quiero preguntar si…";  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
